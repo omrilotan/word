@@ -1,0 +1,17 @@
+{
+	"short_name": "מִלָּה",
+	"name": "מִלָּה",
+	"icons": [
+		{
+			"src": "./word.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"start_url": "./",
+	"background_color": "#ffffff",
+	"display": "standalone",
+	"scope": "./",
+	"theme_color": "#ffffff",
+	"orientation": "landscape"
+}
