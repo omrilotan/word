@@ -1,0 +1,19 @@
+{
+  "name": "word",
+  "version": "0.0.0",
+  "description": "מִלָּה אַקְרָאִית",
+  "private": true,
+  "scripts": {
+    "prepare": "rm -rf docs/*",
+    "build": "parcel build src/index.pug --out-dir docs --public-url ./",
+    "start": "parcel serve src/index.pug --out-dir docs",
+    "format": "prettier --write ."
+  },
+  "author": "omrilotan <omrilotan@hotmail.com> (https://omrilotan.com/)",
+  "license": "Unlicense",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^3.1.1",
+    "pug": "^3.0.2"
+  }
+}
