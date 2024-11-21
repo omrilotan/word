@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "description": "מִלָּה אַקְרָאִית",
   "private": true,
+  "type": "module",
   "scripts": {
     "prepare": "rm -rf docs/*",
     "build": "parcel build src/index.pug --out-dir docs --public-url ./",
     "start": "parcel serve src/index.pug --out-dir docs",
-    "format": "prettier --write ."
+    "format": "./scripts/format.sh"
   },
   "author": "omrilotan <omrilotan@hotmail.com> (https://omrilotan.com/)",
   "license": "Unlicense",
